@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.users {
+    width: 250px;
+    margin-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.users ul {
+    list-style: none;
+    padding: 0;
+}
+
+.users li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.users li:hover {
+    background-color: #f0f0f0;
+}
+
+.posts {
+    flex: 1;
+}
+
+.post-card {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
